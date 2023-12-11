@@ -64,6 +64,7 @@ main {
   background-image: url(https://www.reyrey.com/sites/default/media/2019-06/careers-splash_banner_slider1.jpg);
   height: 700px;
   background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
