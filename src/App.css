@@ -1,0 +1,107 @@
+nav {
+  display: flex;
+  /* width: 1000px; */
+  justify-content: center;
+}
+
+body {
+  font-family: "Open Sans","Apple SD Gothic Neo","Lucida Sans","Trebuchet MS","Arial",sans-serif;
+}
+
+#searchJobsBtn {
+  cursor: pointer;
+  background-color: rgb(211, 57, 30);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+#searchJobsBtn:hover {
+  background-color: rgb(225, 61, 32);
+}
+
+.nav-inner-wrapper {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-inner-wrapper > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.bottom-nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 1000px;
+}
+
+.bottom-nav > div {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bottom-nav > div:hover {
+  background-color: rgb(6, 69, 109);
+}
+
+.bottom-nav-wrapper {
+  background-color: rgb(8, 82, 128);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-image: url(https://www.reyrey.com/sites/default/media/2019-06/careers-splash_banner_slider1.jpg);
+  height: 700px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+#applyNowBtn {
+  background-color: rgb(25,112,157);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: fit-content;
+  font-weight: bold;
+  cursor: pointer;
+}
+main > div {
+  color: white;
+  width: 1000px;
+  /* border: 1px solid white; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#applyNowBtn:hover{
+  background-color: gray;
+}
+
+main > div > div {
+width: 360px;
+/* border: 1px solid red; */
+/* background-color: rgb(26,67,98); */
+padding: 40px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+align-items: center;
+/* opacity: 0.6; */
+background: rgba(26,67,98, .9) 
+}
